@@ -175,3 +175,6 @@ cython_debug/
 
 *iml
 *xml
+*csv
+*json
+*parquet
