@@ -178,6 +178,7 @@ mlruns/
 mlartifacts/
 outputs/
 mlruns.db
+mlflow.db
 
 # Mac
 .DS_Store
