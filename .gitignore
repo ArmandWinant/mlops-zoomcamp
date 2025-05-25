@@ -173,6 +173,15 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
+# Mlflow
+mlruns/
+mlartifacts/
+outputs/
+mlruns.db
+
+# Mac
+.DS_Store
+
 *iml
 *xml
 *csv
