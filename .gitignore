@@ -189,3 +189,4 @@ mlflow.db
 *json
 *parquet
 *bin
+*b
