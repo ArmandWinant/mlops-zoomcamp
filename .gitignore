@@ -183,10 +183,10 @@ mlflow.db
 # Mac
 .DS_Store
 
-*iml
-*xml
-*csv
-*json
-*parquet
-*bin
-*b
+*.iml
+*.xml
+*.csv
+*.json
+*.parquet
+*.bin
+*.b
