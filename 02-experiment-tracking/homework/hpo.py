@@ -40,6 +40,11 @@ def run_optimization(data_path: str, num_trials: int):
         y_pred = rf.predict(X_val)
         rmse = root_mean_squared_error(y_val, y_pred)
 
+        with mlflow.start_run():
+            mlflow.sklearn.log_model(rf, "model")
+            mlflow.log_params(params)
+            mlflow.log_metric("rmse", rmse)
+
         return {'loss': rmse, 'status': STATUS_OK}
 
     search_space = {
