@@ -190,3 +190,4 @@ mlflow.db
 *.parquet
 *.bin
 *.b
+*.pkl
